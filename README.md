@@ -1,11 +1,20 @@
 # Notch
 
-Une « dynamic island » pour Windows 10/11 : une pilule noire en haut de l'écran qui s'agrandit au survol pour afficher la musique en cours, le volume, l'agenda, une étagère de fichiers, quelques outils et le suivi des sessions Claude Code.
+A "dynamic island" for Windows 10/11: a black pill at the top of the screen that expands on hover to show the music playing, the volume, a calendar, a file shelf, a few tools and your Claude Code sessions.
 
-Ce dépôt sert uniquement à distribuer les versions de Notch ; le code source n'est pas public.
+This repository only distributes Notch releases; the source code is not public.
 
-## Installation
+## Install
 
-Télécharge `Notch_x.y.z_x64-setup.exe` depuis la [dernière version](https://github.com/BLQuatre/notch/releases/latest) et lance-le. Les mises à jour s'installent ensuite d'elles-mêmes.
+Download `Notch_x.y.z_x64-setup.exe` from the [latest release](https://github.com/BLQuatre/notch/releases/latest) and run it. Updates then install on their own.
 
-L'installeur n'est pas signé par un certificat Windows : SmartScreen peut afficher un avertissement, choisis « Informations complémentaires » puis « Exécuter quand même ».
+The installer isn't signed with a Windows certificate, so SmartScreen may show a warning: choose **More info**, then **Run anyway**.
+
+## Settings
+
+Open the notch and click the gear at the bottom of the side rail. Changes apply right away. The interface is in English, and French is available under **General › Appearance › Language**.
+
+## Optional integrations
+
+- [Claude Code monitor](docs/claude-code-hooks.md): follow your Claude Code sessions and answer permission requests from the notch.
+- [Spotify](docs/spotify.md): like tracks, switch playback devices and control Spotify's volume.
